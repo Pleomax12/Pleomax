@@ -1,0 +1,93 @@
+body{
+    background-color: #141024;
+
+}
+.logo{
+    width: 228px;
+    height: 48px;
+    margin-left: 60px;
+    padding-top: 30px;
+}
+.nav-bar{
+    margin-top: 38px;
+    width: 1720px;
+    height: 48px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-item{
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: weight;
+    font-style: normal;
+}
+.contacts{
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: weight;
+    font-style: normal;
+}
+.hero{
+    width: 1327px;
+    margin-left: 342px;
+    margin-top: 92px;
+    color: rgb(255, 255, 255);
+    font-family: "Jost", sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: start;
+}
+.hero-title{
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.hero-description{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.hero-button{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 23px;
+    width: 260px;
+    height: 50px;
+    background-color: #D52027;
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    border: #D52027;
+    border-radius: 5px;
+}
+.hero-button:hover{
+    cursor: pointer;
+    background-color: rgb(234, 86, 41);
+    animation: 3s infinite alternate step-end
+}
+.hero-button:focus{
+    cursor: pointer;
+}
+.hero-left{
+    padding-top: 181px;
+}
+.hero-right{
+    width:783px;
+    height: 917.48px;
+    margin-left: 28px;
+}
+.women{
+    width: 100%;
+}
